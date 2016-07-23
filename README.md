@@ -1,17 +1,25 @@
-#Build Environment
+#FreeCodeCamp Front End Project: Build a Javascript Calculator
+##Objective
 
-Compiles/Builds [Typescript](https://www.typescriptlang.org/), [Pug](http://jade-lang.com) and [Sass](http://sass-lang.com/) files using [Gulp](http://gulpjs.com/)
+Build a Javascript calculator
 
-It also use [Jasmine](https://jasmine.github.io/) standalone to run specs
+Fulfill the Users Stories
 
-Requires
+User Story: I can add, subtract, multiply and divide two numbers.
 
-[Node JS](https://nodejs.org/en/)
+User Story: I can clear the input field with a clear button.
 
-To begin use npm to install the dependencies 'npm install'
+User Story: I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
+
+
+#Run Project
+
+Install dependencies with 'npm install'
 
 To run type 'gulp'
 
-Gulp will start browserSync (a live reloading web server)
-You can now develop in the approriate 'src' directory
-Gulp outputs built files to '{project root}/builds/development'
+Your browser should open:
+  
+  Select Development for the project
+
+  Select Specs for the Jasmine Test suit

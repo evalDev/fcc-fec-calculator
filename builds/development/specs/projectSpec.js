@@ -1,4 +1,4 @@
-/* globals describe, it, expect, add, multiply, divide */
+/* globals describe, it, expect, add, multiply, divide, subtract */
 "use strict";
 describe("Calculator", function(){
   it("Mutiplies two numbers", function(){
@@ -12,5 +12,9 @@ describe("Calculator", function(){
   it("Adds two numbers", function(){
     expect(add(2,4)).toBe(6);
     expect(add(62,2)).toBe(64);
+  });
+  it("Subtracts two numbers", function(){
+    expect(subtract(10,4)).toBe(6);
+    expect(subtract(62,2)).toBe(60);
   });
 });

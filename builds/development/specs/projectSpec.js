@@ -1,9 +1,13 @@
-/* globals describe, it, expect, add, multiply */
+/* globals describe, it, expect, add, multiply, divide */
 "use strict";
 describe("Calculator", function(){
   it("Mutiplies two numbers", function(){
     expect(multiply(2,4)).toBe(8);
     expect(multiply(62,2)).toBe(124);
+  });
+  it("Divides two numbers", function(){
+    expect(divide(8,4)).toBe(2);
+    expect(divide(62,2)).toBe(31);
   });
   it("Adds two numbers", function(){
     expect(add(2,4)).toBe(6);

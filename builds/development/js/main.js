@@ -1,8 +1,14 @@
-var lastValue = 0;
-function multiply(a, b) {
-    lastValue = a * b;
-    return a * b;
-}
-function add(a, b) { return a + b; }
-function divide(a, b) { return a / b; }
-function subtract(a, b) { return a - b; }
+(function() {
+  var testObjects;
+
+  testObjects = {};
+
+  if ((typeof module !== "undefined" && module !== null) && module.exports) {
+    module.exports = testObjects;
+  }
+
+  if (typeof window !== "undefined" && window !== null) {
+    window.projectName = testObjects;
+  }
+
+}).call(this);

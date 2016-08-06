@@ -20,6 +20,6 @@ To run type 'gulp'
 
 Your browser should open:
   
-  Select Development for the project
+    Select Development for the project
 
-  Select Specs for the Jasmine Test suit
+    Select Specs for the Jasmine Test suit
